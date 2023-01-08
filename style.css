@@ -98,8 +98,8 @@ body {
 }
 
 .welcome__image img {
-    width: 448.8px;
-    height: 407.36px;
+    width: 449px;
+    height: 407px;
 }
 
 .welcome__text {
@@ -139,6 +139,8 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .welcome__button {
@@ -146,7 +148,7 @@ body {
     height: 44px;
     border: 2px solid #E06733;
     border-radius: 10px;
-    margin-top: 48px;
+    margin-top: 45px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
