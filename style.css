@@ -37,7 +37,7 @@ body {
 
 
 .logo__name {
-    font-family: 'Inika';
+    font-family: 'Inika', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -119,7 +119,7 @@ body {
     color: #717171;
     width: 549px;
     height: 101px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -134,7 +134,7 @@ body {
     color: #636060;
     width: 525.44px;
     height: 105px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -146,7 +146,8 @@ body {
     height: 44px;
     border: 2px solid #E06733;
     border-radius: 10px;
-    font-family: 'Inter';
+    margin-top: 48px;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -176,7 +177,7 @@ body {
 .about__text_title {
     width: 463px;
     height: 102px;
-    font-family: 'Inika';
+    font-family: 'Inika', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -191,7 +192,7 @@ body {
 .about__text_lorem {
     width: 605px;
     height: 208px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -234,7 +235,7 @@ body {
 .service__content_title {
     width: 306px;
     height: 94px;
-    font-family: 'Inika';
+    font-family: 'Inika', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -256,7 +257,7 @@ body {
     border-radius: 5px;
     color: #E06733;
     background-color: #EDF2EC;
-    font-family: 'Inika';
+    font-family: 'Inika', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -285,6 +286,7 @@ body {
     align-items: center;
     width: 330px;
     height: 450px;
+    margin-top: 55px;
     list-style-type: none;
 }
 
@@ -294,23 +296,30 @@ body {
     border-radius: 20px 20px 0px 0px;
 }
 
-.services__item b {
-    font-family: 'Inter';
+.services__item_content {
+    width: 327px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
+    line-height: 20px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.services__item b {
     font-weight: 700;
     font-size: 20px;
-    line-height: 20px;
     text-align: center;
     color: #E06733;
     padding-top: 10px;
 }
 
 .services__item span {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
     color: #717171;
     padding-top: 10px;
 }
@@ -335,7 +344,9 @@ body {
 .prices__menu_title {
     width: 135px;
     height: 49px;
-    font-family: 'Inter';
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -349,24 +360,22 @@ body {
     align-items: center;
     list-style-type: none;
     padding: 0;
-    margin: 0;
     width: 332px;
     height: 282px;
-    left: 109px;
-    top: 149px;
+    margin-top: 60px;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
 }
 
 .prices__list_item {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
     width: 250px;
     height: 50px;
     background: #EDF2EC;
     border-radius: 20px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -376,11 +385,20 @@ body {
 .prices__list_item span {
     width: 16px;
     height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #D9D9D9;
     border-radius: 50%;
     color: #717171;
     font-size: small;
     text-align: center;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.prices__list_item b {
+    margin-left: 40px;
 }
 
 .prices__contacts {
@@ -392,7 +410,7 @@ body {
 .prices__contacts_title {
     width: 452px;
     height: 103px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -411,7 +429,7 @@ body {
     border-radius: 5px;
     color: #E06733;
     background-color: white;
-    font-family: 'Inika';
+    font-family: 'Inika', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -434,6 +452,7 @@ body {
     display: flex;
     width: 1220px;
     justify-content: space-between;
+    align-items: end;
 }
 
 .contacts__container img {
@@ -444,39 +463,58 @@ body {
 .contacts__title {
     width: 195px;
     height: 51px;
-    font-family: 'Inika';
+    font-family: 'Inika', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
+    margin-bottom: 439px;
 }
 
 .contacts__city {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
     width: 450px;
     height: 50px;
     background: #D6E7D2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #717171;
+    margin-bottom: 352px;
 }
 
 .contacts__city span {
+    width: 204px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.contacts_white-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.contacts__city div {
+    display: flex;
+    background-color: #AEA1A1;;
     width: 16px;
     height: 16px;
-    background: #AEA1A1;
     border-radius: 50%;
-    color: #717171;
-    font-size: small;
-    text-align: center;
+}
+
+.contacts__city img {
+    width: 4px;
+    height: 2px;
 }
 
 .footer {
@@ -490,7 +528,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 1222px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -499,6 +537,10 @@ body {
 
 .footer__data {
     width: 182px;
+}
+
+.footer__data span:not(:last-child) {
+    margin-right: 20px;
 }
 
 .footer__social_list {
@@ -510,9 +552,13 @@ body {
     padding: 0;
 }
 
-.footer__social_list_item {
+.footer__social_list li {
     width: 32px;
     height: 32px;
+}
+
+.footer__social_list img {
+    cursor: pointer;
 }
 
 .footer__rs {
