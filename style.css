@@ -70,10 +70,15 @@ body {
 .nav__link {
     text-decoration: none;
     font-family: 'Inika', serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #010201;
     font-weight: 400;
     line-height: 50px;
+    transition: color 0.2s ease;
+}
+
+.nav__link:hover {
+    color: #E06733;
 }
 
 .welcome {
@@ -106,7 +111,7 @@ body {
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    padding-top: 53px;
 }
 
 .welcome__text_container {
