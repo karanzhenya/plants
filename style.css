@@ -154,7 +154,7 @@ body {
     border: 2px solid #E06733;
     border-radius: 10px;
     margin-top: 45px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -164,7 +164,7 @@ body {
 }
 
 .about {
-    height: 600px;
+    height: 666px;
     display: flex;
     justify-content: center;
 }
@@ -184,10 +184,10 @@ body {
 .about__text_title {
     width: 463px;
     height: 102px;
-    font-family: 'Inika', sans-serif;
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 52px;
     color: #499A18;
 }
@@ -205,6 +205,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #636060;
+    letter-spacing: 0.5px;
 }
 
 .about__image {
@@ -242,10 +243,10 @@ body {
 .service__content_title {
     width: 306px;
     height: 94px;
-    font-family: 'Inika', sans-serif;
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 52px;
     color: #499A18;
 }
@@ -470,9 +471,9 @@ body {
 .contacts__title {
     width: 195px;
     height: 51px;
-    font-family: 'Inika', sans-serif;
+    font-family: 'Inika', serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
