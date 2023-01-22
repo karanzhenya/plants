@@ -337,7 +337,7 @@ body {
     border-radius: 0px 0px 20px 20px;
 }
 
-.services__item b {
+.services__item_content b {
     padding-top: 10px;
     font-weight: 700;
     font-size: 20px;
@@ -345,7 +345,7 @@ body {
     color: #E06733;
 }
 
-.services__item span {
+.services__item_content span {
     padding-top: 10px;
     font-weight: 400;
     font-size: 16px;
