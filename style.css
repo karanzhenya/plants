@@ -8,10 +8,16 @@
     src: url('Fonts/Inter/static/Inter-Regular.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0 auto;
     padding: 0;
-    width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-family: 'Inter', sans-serif;
     font-style: normal;
 }
@@ -28,6 +34,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1440px;
+}
+
+.header__container_row {
     width: 1220px;
 }
 
@@ -36,7 +46,6 @@ body {
     align-items: center;
     width: 79.17px;
 }
-
 
 .logo__name {
     height: 17px;
@@ -49,7 +58,7 @@ body {
 
 .nav {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     width: 1220px;
     height: 50px;
@@ -75,11 +84,16 @@ body {
     font-weight: 400;
     line-height: 50px;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: 0.5s
 }
 
-.nav__link:hover {
+.nav__list a:hover {
     color: #E06733;
+    font-size: larger;
+}
+
+.main {
+    width: 100%;
 }
 
 .welcome {
@@ -156,6 +170,13 @@ body {
     line-height: 20px;
     color: #000000;
     background-color: #EDF2EC;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.welcome__button:hover {
+    background-color: #E06733;
+    color: #EDF2EC;
 }
 
 .about {
@@ -264,6 +285,13 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.service__content_navigation button:hover {
+    background-color: #E06733;
+    color: #EDF2EC;
 }
 
 .services {
@@ -427,6 +455,13 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.prices__contacts button:hover {
+    background-color: #E06733;
+    color: #EDF2EC;
 }
 
 .prices__contacts img {
@@ -551,6 +586,12 @@ body {
     cursor: pointer;
 }
 
+.footer__container a {
+    text-decoration: none;
+    color: black;
+}
+
 .footer__rs {
     width: 211px;
+    cursor: pointer;
 }
